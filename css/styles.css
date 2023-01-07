@@ -101,12 +101,20 @@ body {
     align-items: center;
 }
 
+
 article  {
     background-color: var(--Dark-Blue);
     max-width: 40%;
     margin: 0 auto;
     padding: 2rem;
     border-radius: 20px; 
+}
+
+.starImg {
+    width: 12%;
+    border-radius: 100%;
+    background-color: var(--Very-Dark-Blue);
+    padding: .5rem;
 }
 
 
