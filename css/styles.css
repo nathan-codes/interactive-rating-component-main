@@ -95,6 +95,18 @@ h6 {
 
 body {
     font-size: 15px;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article  {
+    background-color: var(--Dark-Blue);
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 20px; 
 }
 
 
