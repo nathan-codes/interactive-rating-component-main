@@ -123,9 +123,9 @@ article {
    
     border-radius: 50%;
     background-color: var(--Button-colors);
-    padding: .5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
-    text-align: center;
+
 }
 
 .starImg {
@@ -149,12 +149,14 @@ p {
 
 
 .ratings {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     margin: 2rem 0;
 }
 
 .ratings span {
-
+    
+   
     color: var(--Medium-Grey);
 
 }
