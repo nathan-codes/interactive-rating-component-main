@@ -106,6 +106,7 @@ body {
     align-items: center;
     font-family: 'Overpass', sans-serif;
 
+
 }
 
 
@@ -120,7 +121,7 @@ article {
 
 /* Styling  All Rounded Rating Buttons*/
 .rounded-button {
-   
+
     border-radius: 50%;
     background-color: var(--Button-colors);
     padding: 1rem;
@@ -129,7 +130,7 @@ article {
 }
 
 .starImg {
-    width: 10%;
+    width: 17%;
 
 }
 
@@ -151,23 +152,27 @@ p {
 .ratings {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .ratings span {
-    
-   
+
+
     color: var(--Medium-Grey);
 
 }
 
-
+.ratings span:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+    cursor: pointer;
+}
 
 
 
 
 /* Styling the Submit Button */
-button{
+.submit-Button {
     background-color: var(--Orange);
     text-transform: uppercase;
     font-size: .8rem;
@@ -176,6 +181,13 @@ button{
     width: 100%;
     border: none;
     border-radius: 30px;
+    font-weight: var(--fw-bold);
+}
+
+.submit-Button:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
 }
 
 
@@ -189,6 +201,7 @@ button{
     position: absolute;
     bottom: 10px;
     font-size: 14px;
+    color: aliceblue;
 
 
 }
