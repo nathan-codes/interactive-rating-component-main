@@ -153,14 +153,10 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
-}
-
-.ratings span {
-
-
     color: var(--Medium-Grey);
-
 }
+
+
 
 .ratings span:hover {
     background-color: var(--Orange);
@@ -210,3 +206,15 @@ p {
     text-align: center;
     color: hsl(228, 45%, 44%);
 }
+
+
+
+/* Javascript Style States */
+
+.clicked{
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+
+
+
