@@ -232,20 +232,20 @@ p {
 
 
 
-#feedbackState {
+.feedbackState {
     display: none;
     text-align: center;
 }
 
 
-#feedbackState img {
+.feedbackState img {
     margin: 1rem auto;
     width: 50%;
 }
 
 
 
-#feedbackState .ratingMessage {
+.feedbackState .ratingMessage {
     color: hsl(25, 70%, 66%);
     background-color: var(--Button-colors);
     display: inline-block;
