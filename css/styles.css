@@ -116,6 +116,7 @@ article {
     border-radius: 20px;
     margin: 0 20px;
     max-width: 350px;
+   
 }
 
 
@@ -217,4 +218,30 @@ p {
 }
 
 
+#ratingState {
+    display: none;
+}
 
+
+
+
+#feedbackState {
+   text-align: center;
+}
+
+
+#feedbackState img {
+    margin: 1rem auto;
+    width: 50%;
+}
+
+
+
+#feedbackState .ratingMessage {
+    color: hsl(25, 70%, 66%);
+    background-color: var(--Button-colors);
+    display: inline-block;
+    padding: .3rem 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
