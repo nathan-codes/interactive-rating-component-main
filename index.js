@@ -5,11 +5,13 @@ let submitButton = document.querySelector(".submit-Button");
 
 
 
+
 for (let i = 0; i < ratingsButtons.length; i++) {
     let clickedButton = ratingsButtons[i];
     let buttonInnerHTML = ratingsButtons[i].innerHTML;
     clickedButton.addEventListener("click", function () {
         clickedButton.classList.toggle("clicked");
+        document.querySelector(".ratingNumber").innerHTML = buttonInnerHTML; 
 
     })
 }
@@ -23,6 +25,9 @@ submitButton.addEventListener("click", function () {
     feedbackState.classList.add("display");
 
 })
+
+
+
 
 
 
