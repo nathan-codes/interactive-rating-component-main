@@ -116,7 +116,7 @@ article {
     border-radius: 20px;
     margin: 0 20px;
     max-width: 350px;
-   
+
 }
 
 
@@ -146,6 +146,7 @@ h1 {
 p {
     font-size: 14px;
     color: var(--Medium-Grey);
+
 
 }
 
@@ -212,21 +213,28 @@ p {
 
 /* Javascript Style States */
 
-.clicked{
+.clicked {
     background-color: var(--Light-Grey);
     color: var(--White);
 }
 
 
-#ratingState {
+.display {
+    display: block!important;
+}
+
+.nodisplay {
     display: none;
+
 }
 
 
 
 
+
 #feedbackState {
-   text-align: center;
+    display: none;
+    text-align: center;
 }
 
 
