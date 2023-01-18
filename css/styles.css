@@ -152,12 +152,13 @@ label {
 
 label input {
     display: none;
-
 }
+
+
+
 
 label span {
     padding: 1rem;
-
     background-color: var(--Button-colors);
     position: relative;
     overflow: hidden;
@@ -167,9 +168,12 @@ label span {
     font-size: 10pt;
     color: var(--Light-Grey);
 
+}
 
-
-
+label span:hover{
+    cursor: pointer;
+    background-color: var(--Orange);
+    color: var(--White);
 }
 
 input:checked+span {
